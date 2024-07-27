@@ -1,0 +1,21 @@
+{
+  "name": "wisdomjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node ./dist/index.js"
+  },
+  "author": "Matt Marsico",
+  "license": "ISC",
+  "description": "A very simple API for getting some quotes that resonate with me.",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "typescript": "^5.5.4"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@types/node": "^20.14.12"
+  }
+}
