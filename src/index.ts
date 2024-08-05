@@ -1,5 +1,9 @@
-import setupServer from "./server"
+import { promptWithTui } from "./tui"
 
 (async () => {
-  await setupServer();
+  try {
+    promptWithTui();
+  } catch (error) {
+    console.log("Exiting TUI");
+  }
 })()
