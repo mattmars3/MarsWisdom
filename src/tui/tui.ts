@@ -1,6 +1,6 @@
 import inquirer from "inquirer";
-import { getAllQuotesFromFile, writeQuoteArrayToFile } from "./writeQuote";
-import { Quote } from "./Quote";
+import { getAllQuotesFromFile, writeQuoteArrayToFile } from "../util/writeQuote";
+import { Quote } from "../util/Quote";
 
 export async function promptWithTui() {
   try {

@@ -1,4 +1,4 @@
-import { promptWithTui } from "./tui"
+import { promptWithTui } from "./tui/tui"
 
 (async () => {
   try {
