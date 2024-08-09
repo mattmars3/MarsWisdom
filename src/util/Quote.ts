@@ -11,4 +11,6 @@ export interface Quote {
 
   // is this a quote you would show on your personal website
   isExplicit: boolean;
+
+  keywords: string[];
 }

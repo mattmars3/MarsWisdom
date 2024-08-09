@@ -1,8 +1,8 @@
-import { promptWithTui } from "./tui/tui"
+import { addQuoteWithTui } from "./tui/tui"
 
 (async () => {
   try {
-    promptWithTui();
+    addQuoteWithTui();
   } catch (error) {
     console.log("Exiting TUI");
   }
